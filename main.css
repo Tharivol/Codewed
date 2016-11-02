@@ -1,0 +1,40 @@
+
+	body	{
+		background-color: red;
+}
+
+	/*
+	Mobile phone
+	*/
+
+	@media (min-width: 768px)	{
+		body {
+			background-color:	rgb(44,66,99);
+		}
+		}
+		.boxes	{
+			width: 100%
+		}
+	
+
+	/*  tablet  */
+	@media (min-width: 1024px)	{
+		body {
+			background-color:	#38786f;
+		}
+}
+		/* laptop/desktop */
+
+		@media (min-width: 2048px)	{
+		body {
+			background-color:	darkseagreen;
+		}
+	}
+		.box {	
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+}
+	.boxes(
+		)
